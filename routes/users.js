@@ -18,4 +18,12 @@ router.get('/drown', function(req, res, next) {
   res.sendStatus(403).end();
 });
 
+router.get('/pull', function(req, res, next) {
+  res.sendStatus(403).end();
+});
+
+router.get('/push', function(req, res, next) {
+  res.sendStatus(403).end();
+});
+
 module.exports = router;
