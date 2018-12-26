@@ -7,12 +7,7 @@ router.get('/', function(req, res, next) {
 });
 
 
-router.get('/search', function(req, res, next) {
-  res.render('index', { title: 'Express' });
-});
-
-
-router.get('/create', function(req, res, next) {
+router.get('/list', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
