@@ -15,7 +15,7 @@ router.get('/burn', function(req, res, next) {
 });
 
 router.get('/drown', function(req, res, next) {
-  res.send('respond with a resource');
+  res.sendStatus(403).end();
 });
 
 module.exports = router;
