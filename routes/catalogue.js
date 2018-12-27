@@ -13,4 +13,8 @@ router.get('/gibson', function(req, res, next) {
 router.get('/ibanez', function(req, res, next) {
     res.sendStatus(200).end();
 });
+
+router.get('/prs', function(req, res, next) {
+    res.sendStatus(200).end();
+});
 module.exports = router;
